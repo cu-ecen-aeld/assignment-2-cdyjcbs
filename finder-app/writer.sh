@@ -1,6 +1,8 @@
 #!/bin/bash
+
 writefile=$1
 writestr=$2
+
 if [ $# -lt 2 ]; then
 	echo "Too few arguments"
 	echo "Please enter in the following order:"
@@ -8,7 +10,9 @@ if [ $# -lt 2 ]; then
 	echo "2. Write string"
 	exit 1
 fi
+
 mkdir -p "$(dirname "$writefile")"
+
 if echo "$writestr" > "$writefile"; then
 	echo "File created and written succesfully."
 else

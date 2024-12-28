@@ -3,6 +3,9 @@ filesdir=$1
 searchstr=$2
 if [ $# -lt 2 ]; then
 	echo "Too few arguments"
+	echo "Please enter in the following order:"
+	echo "1. File directory name"
+	echo "2. Search string"
 	exit 1
 fi
 if [ -d "$filesdir" ]; then
