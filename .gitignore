@@ -6,7 +6,11 @@ crosstool-ng
 aesd-build
 .vscode/
 test.sh.log
-<<<<<<< HEAD
+HEAD
 actions-runner/
-=======
->>>>>>> assignments-base/assignment2
+externals/
+bin/
+*.dll
+*.so
+*.tar.gz
+assignments-base/assignment2
